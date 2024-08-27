@@ -3,4 +3,25 @@
   <img src="assets/img/logo.png" alt="Logo Pizzaria">
 </div>
 
+<nav>
+  <ul class="nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="selectedTab === 'pizzas'" (click)="selectTab('pizzas')">Pizzas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="selectedTab === 'bebidas'" (click)="selectTab('bebidas')">Bebidas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [class.active]="selectedTab === 'doces'" (click)="selectTab('doces')">Doces</a>
+    </li>
+  </ul>
+</nav>
 
+<!-- Renderiza o componente com base na aba selecionada -->
+<ng-container *ngIf="selectedTab === 'pizzas'">
+  <app-pizza></app-pizza>
+</ng-container>
+<ng-container *ngIf="selectedTab === 'bebidas'">
+</ng-container>
+<ng-container *ngIf="selectedTab === 'doces'">
+</ng-container>

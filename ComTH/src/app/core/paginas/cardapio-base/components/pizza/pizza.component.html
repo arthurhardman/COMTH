@@ -1,0 +1,16 @@
+<div class="body">
+  <div class="listagem" *ngFor="let pizza of this.pizzas">
+    <div class="detalhes">
+      <div class="foto-pizza">
+        <img src="{{ pizza.Foto }}" alt="FotoPizza" />
+      </div>
+      <div class="pizza">
+        <h4>{{ pizza.Nome }}</h4>
+        <p>{{ pizza.Preco }}</p>
+      </div>
+    </div>
+    <div class="seta">
+      <i class="icon fas fa-arrow-right"></i>
+    </div>
+  </div>
+</div>

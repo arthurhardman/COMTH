@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './core/paginas/inicio/inicio.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { CardapioBaseComponent } from './core/paginas/cardapio-base/paginas/cardapio-base.component';
+import { PizzaComponent } from './core/paginas/cardapio-base/components/pizza/pizza.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
-    CardapioBaseComponent
+    CardapioBaseComponent,
+    PizzaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

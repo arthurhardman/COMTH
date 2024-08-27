@@ -1,6 +1,6 @@
-export interface Pizza {
+export interface IPizza {
   Nome: string;
   Preco: string;
   Foto: string;
-  Componentes: Array<string>;
+  Componentes?: Array<string>;
 }

@@ -7,7 +7,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./cardapio-base.component.css']
 })
 export class CardapioBaseComponent {
+  selectedTab: string = 'pizzas';
+
   constructor (private router: Router){}
+
+  selectTab(tab: string) {
+    this.selectedTab = tab;
+  }
 
   onClickNavigateByCardapio() {
     this.router.navigateByUrl(`/inicio`);
