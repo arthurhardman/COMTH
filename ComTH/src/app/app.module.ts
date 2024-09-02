@@ -8,6 +8,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { CardapioBaseComponent } from './core/paginas/cardapio-base/paginas/cardapio-base.component';
 import { PizzaComponent } from './core/paginas/cardapio-base/components/pizza/pizza.component';
 import { BebidaComponent } from './core/paginas/cardapio-base/components/bebida/bebida.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { BebidaComponent } from './core/paginas/cardapio-base/components/bebida/
     BrowserModule,
     AppRoutingModule,
     NgxSpinnerModule,
+    ModalModule.forRoot()
+
   ],
   providers: [],
   bootstrap: [AppComponent]
