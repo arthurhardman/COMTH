@@ -22,5 +22,4 @@ export class PizzaComponent implements OnInit{
         this.pizzas = response;
       });
   }
-
 }

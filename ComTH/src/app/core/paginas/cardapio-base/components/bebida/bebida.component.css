@@ -16,29 +16,18 @@
   margin-bottom: 5px;
 }
 
-.pizza {
+.bebida {
   margin-left: 10px;
 }
 
-.pizza h4 {
+.bebida h4 {
   margin: 0;
   font-size: 16px;
 }
 
-.pizza p {
+.bebida p {
   margin: 0;
   font-size: 14px;
-}
-
-.foto-pizza {
-  max-width: 50px;
-  max-height: 50px;
-}
-
-.foto-pizza img {
-  width: 80%;
-  margin-right: 5px;
-  object-fit: contain;
 }
 
 .seta i {

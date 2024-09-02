@@ -11,9 +11,6 @@
     <li class="nav-item">
       <a class="nav-link" [class.active]="selectedTab === 'bebidas'" (click)="selectTab('bebidas')">Bebidas</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" [class.active]="selectedTab === 'doces'" (click)="selectTab('doces')">Doces</a>
-    </li>
   </ul>
 </nav>
 
@@ -22,6 +19,5 @@
   <app-pizza></app-pizza>
 </ng-container>
 <ng-container *ngIf="selectedTab === 'bebidas'">
-</ng-container>
-<ng-container *ngIf="selectedTab === 'doces'">
+  <app-bebida></app-bebida>
 </ng-container>
