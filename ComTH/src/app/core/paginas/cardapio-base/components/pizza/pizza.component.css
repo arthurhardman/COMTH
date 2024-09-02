@@ -32,14 +32,17 @@
 }
 
 .foto-pizza {
-  max-width: 50px;
-  max-height: 50px;
+  display: table-cell;
+  width: 50px;
+  height: 50px;
 }
 
 .foto-pizza img {
-  width: 80%;
-  margin-right: 5px;
-  object-fit: contain;
+  width: 50px;
+  height: 50px;
+  overflow: cover;
+  border: 1px transparent #ddd;
+  border-radius: 5px;
 }
 
 .seta i {
@@ -102,4 +105,8 @@
 
 .btn-voltar:hover {
   background-color: #002C42;
+}
+
+.componentes {
+  text-align: left;
 }
