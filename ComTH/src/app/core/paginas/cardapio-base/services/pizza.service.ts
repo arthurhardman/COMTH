@@ -12,7 +12,7 @@ export class PizzaService {
         Nome: 'Alho Frito',
         Preco: 'R$ 38,00',
         Foto: 'https://files.menudino.com/cardapios/57354/11.jpg',
-        Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, alho frito e manjericão fresco.Massa de longa fermentação, molho de tomate caseiro, mozarela, alho frito e manjericão fresco.'
+        Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, alho frito e manjericão fresco.'
       },
       {
         Nome: 'Banana Nevada',
