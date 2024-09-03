@@ -9,6 +9,7 @@ import { CardapioBaseComponent } from './core/paginas/cardapio-base/paginas/card
 import { PizzaComponent } from './core/paginas/cardapio-base/components/pizza/pizza.component';
 import { BebidaComponent } from './core/paginas/cardapio-base/components/bebida/bebida.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     ModalModule.forRoot()
 
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

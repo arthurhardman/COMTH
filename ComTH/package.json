@@ -1,12 +1,13 @@
 {
   "name": "com-th",
   "version": "0.0.0",
-  "scripts": {
+    "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/ComTH/",
+    "build": "ng build --base-href ./",
+    "postbuild": "echo comthpizza.com.br > dist/com-th/CNAME",
     "ghpages": "angular-cli-ghpages --dir=dist/com-th",
-    "deploy": "npm run build & npm run ghpages",
+    "deploy": "npm run build && npm run ghpages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

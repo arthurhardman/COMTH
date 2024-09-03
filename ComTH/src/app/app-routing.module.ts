@@ -10,11 +10,11 @@ const routes: Routes = [
     redirectTo: '/inicio',
   },
   {
-    path: "inicio",
+    path: 'inicio',
     component: InicioComponent
   },
   {
-    path: "cardapio",
+    path: 'cardapio',
     component: CardapioBaseComponent
   },
 
