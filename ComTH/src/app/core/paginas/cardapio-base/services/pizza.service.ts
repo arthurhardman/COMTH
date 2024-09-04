@@ -17,13 +17,13 @@ export class PizzaService {
       {
         Nome: 'Banana Nevada',
         Preco: 'R$ 42,90',
-        Foto: 'https://files.menudino.com/cardapios/57354/13.jpg',
+        Foto: 'assets/img/banana-nevada.png',
         Componentes: 'Massa de longa fermentação, banana, chocolate branco, doce de leite e canela.'
       },
       {
         Nome: 'Bacon Garlic',
         Preco: 'R$ 44,00',
-        Foto: 'https://files.menudino.com/cardapios/57354/9.jpg',
+        Foto: 'assets/img/bacon-garlic.png',
         Componentes: 'Massa de longa fermentaçao, creme de alho confitado, mozarela, alho poró e bacon fatiado.'
       },
       {
@@ -35,19 +35,19 @@ export class PizzaService {
       {
         Nome: 'Calabresa Premium',
         Preco: 'R$ 50,00',
-        Foto: 'https://files.menudino.com/cardapios/57354/4.jpg',
+        Foto: 'assets/img/calabresa-premium.png',
         Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, alho poró, calabresa processada e requeijão vigor.'
       },
       {
         Nome: 'Calábria',
         Preco: 'R$ 49,90',
-        Foto: 'https://files.menudino.com/cardapios/57354/5.jpg',
+        Foto: 'assets/img/calabria.png',
         Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, calabresa em rodelas, cream cheese, manjericão e mel.'
       },
       {
         Nome: 'ComTH',
         Preco: 'R$ 46,00',
-        Foto: 'https://files.menudino.com/cardapios/57354/6.jpg',
+        Foto: 'assets/img/com-th.png',
         Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, calabresa processada, alho frito, azeitona e molho agridoce.'
       },
       {
@@ -59,7 +59,7 @@ export class PizzaService {
       {
         Nome: 'Gorgon Ramsey',
         Preco: 'R$ 44,00',
-        Foto: 'https://files.menudino.com/cardapios/57354/10.jpg',
+        Foto: 'assets/img/gordon-ramsey.png',
         Componentes: 'Massa de longa fermentação, molho bechamel, mozarela, gorgonzola, cebola caramelizada e manjericão.'
       },
       {
