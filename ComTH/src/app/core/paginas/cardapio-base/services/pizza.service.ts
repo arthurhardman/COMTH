@@ -70,13 +70,13 @@ export class PizzaService {
       },
       {
         Nome: 'Portuga',
-        Preco: 'R$ 48,50',
+        Preco: 'R$ 50,90',
         Foto: 'https://files.menudino.com/cardapios/57354/7.jpg',
         Componentes: 'Massa de longa fermentação, molho de tomate caseiro, presunto, farofa de bacon, mozarela, cebola e azeitona.'
       },
       {
         Nome: 'Rainha Margherita',
-        Preco: 'R$ 44,50',
+        Preco: 'R$ 44,90',
         Foto: 'https://files.menudino.com/cardapios/57354/10.jpg',
         Componentes: 'Massa de longa fermentação, molho de tomate caseiro, mozarela, tomate em cubos e manjericão fresco.'
       }
